@@ -157,11 +157,6 @@ button{width:60px;
 
 .submenu1 li:hover a{color:#14a4af;
 					border-bottom:2px solid #14a4af;}
-		height:20px;
-		background-color:transparent !important;;
-			background-image: none !important;
-			border-color: transparent;
-			border: none;}
 .nav2 li:hover h2{background-color:#fff;
 					color:#14a4af;
 					height:77px;

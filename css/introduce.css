@@ -154,11 +154,6 @@ button{width:60px;
 
 .submenu1 li:hover a{color:#14a4af;
 					border-bottom:2px solid #14a4af;}
-		height:20px;
-		background-color:transparent !important;;
-			background-image: none !important;
-			border-color: transparent;
-			border: none;}
 .nav2 li:hover h2{background-color:#fff;
 					color:#14a4af;
 					height:77px;
@@ -246,30 +241,32 @@ button{width:60px;
 #section1{margin-top:600px;
 			width:1400px;
 			}
+.name li{
+	left: 50%;
+    position: relative;
+    margin-left: -200px;
+    top: -100px;
+}			
 .name h3{
-		margin-top:600px;
-		position:absolute;
-		top:0;
-		left:0;
-		z-index:3;
-		font-size:40px;
-		font-weight:600;
-		margin-left:730px;}
-.name img{margin-top:600px;
-		position:absolute;
-		top:0;
-		left:0;
-		z-index:3;
-		font-size:40px;
-		font-weight:600;
-		margin-left:1000px;}
-
-.bu{width:700px;
-		margin-top:670px;
-		margin-left:700px;
-		position:absolute;
-		top:0;
-		left:0;}
+	position: absolute;
+    width: 300px;
+    left: 0;
+    z-index: 3;
+    font-size: 40px;
+    font-weight: 600;}
+.name img{position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 255px;}
+#section3 ul{float:left}
+.bu{width: 700px;
+    margin-top: 670px;
+    position: absolute;
+    top: 0px;
+    left: 35%;}
 .bu li{width:100px;
 		float:left;
 		position:absolute;}
@@ -287,7 +284,6 @@ button{width:60px;
 		line-height:48px;
 		margin-left:90px;
 		margin-top:40px;}
-.9{margin-left:85px;}
 #line9{margin:0 auto;
 		margin-top:70px;}
 .lo{margin-left:1190px;
@@ -339,24 +335,21 @@ button{width:60px;
 
 			margin-left:420px;
 			z-index:1;}
-.right h3, .right p{position:absolute;
-		top:0;
-		left:0;
-		margin-top:2010px;
-		margin-left:800px;
-		z-index:3;}
+.right h3, .right p{position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 460px;
+    z-index: 3;}
 .right h3{font-size:30px;
 			font-weight:600;}
 .right p{font-size:20px;
 			line-height:28px;
-			margin-top:2080px;
 			width:730px;}
-.right_2{position:absolute;
-		top:0;
-		left:0;
-		margin-top:2060px;
-		z-index:2;
-		margin-left:700px;}
+.right_2{    position: relative;
+    top: 110px;
+    left: -833px;
+    z-index: 2;}
 .right_2 li{float:left;
 			position:absolute;}
 .right_2 li:nth-child(2){margin-left:250px;}
@@ -385,21 +378,21 @@ button{width:60px;
 .p p{margin-top:300px;
 		position:absolute;
 		z-index:3;
-		margin-left:130px;
+		margin-left:120px;
 		font-size:20px;
 		line-height:28px;
 		width:190px;}
 .l p{margin-top:300px;
 		position:absolute;
 		z-index:3;
-		margin-left:130px;
+		margin-left:120px;
 		font-size:20px;
 		line-height:28px;
 		width:190px;}
 .m p{margin-top:300px;
 		position:absolute;
 		z-index:3;
-		margin-left:130px;
+		margin-left:117px;
 		font-size:20px;
 		line-height:28px;
 		width:190px;}

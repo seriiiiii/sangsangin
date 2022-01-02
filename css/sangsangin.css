@@ -23,7 +23,6 @@ header{width:100%;
 		padding-left:30px;}
 
 nav{width:1000px;
-	height:50px;
 	margin-left:250px;
 	padding-top:45px;}
 .nav li{width:180px;
@@ -157,11 +156,6 @@ button{width:60px;
 
 .submenu1 li:hover a{color:#14a4af;
 					border-bottom:2px solid #14a4af;}
-		height:20px;
-		background-color:transparent !important;;
-			background-image: none !important;
-			border-color: transparent;
-			border: none;}
 .nav2 li:hover h2{background-color:#fff;
 					color:#14a4af;
 					height:77px;
@@ -398,21 +392,23 @@ button{width:60px;
 				line-height:30px;
 				position:absolute;}
 .section3_2 h3{margin-top:-450px;
-				margin-left:540px;}
-.section3_2 p{margin-top:-350px;
-				margin-left:340px;}
+				margin-left:300px;}
+.section3_2 p{    margin-top: -350px;
+    margin-left: 0px;
+    position: relative;
+    height: 350px;}
 .section3_3 h3{margin-top:-450px;
-				margin-left:940px;}
+				margin-left:700px;}
 .section3_3 p{margin-top:-350px;
-				margin-left:750px;}
+				margin-left:500px;}
 .section3_4 h3{margin-top:-450px;
 				margin-left:1400px;}
 .section3_4 p{margin-top:-350px;
 				margin-left:1150px;}
 .section3_5 h3{margin-top:-110px;
 				margin-left:560px;}
-.section3_5 p{margin-top:;
-				margin-left:340px;}
+.section3_5 p{    margin-left: 0px;
+    position: relative;}
 .section3_6 h3{margin-top:-110px;
 				margin-left:985px;}
 .section3_6 p{margin-top:0px;
@@ -437,7 +433,7 @@ button{width:60px;
 			font-weight:600;}
 .nav3 h2{font-size:30px;
 		font-weight:600;}
-.nav3{position:absolute;
+.nav3{
 	left:0;
 	margin-left:-280px;}
 .nav3 li{float:left;
@@ -476,7 +472,7 @@ button{width:60px;
 	margin:30px;
 	margin-top:120px;}
 .box3:hover{background-color:#00bcb4;
-			h3 background-color:#fff;}
+			background-color:#fff;}
 .box2:hover{background-color:#00bcb4;}
 .box1:hover{background-color:#00bcb4;}
 

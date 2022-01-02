@@ -157,11 +157,6 @@ button{width:60px;
 
 .submenu1 li:hover a{color:#14a4af;
 					border-bottom:2px solid #14a4af;}
-		height:20px;
-		background-color:transparent !important;;
-			background-image: none !important;
-			border-color: transparent;
-			border: none;}
 .nav2 li:hover h2{background-color:#fff;
 					color:#14a4af;
 					height:77px;
@@ -243,7 +238,7 @@ button{width:60px;
 		margin-top:30px;
 		z-index:1;
 		position:absolute;}
-#section1{margin-top:630px;}
+#section1{margin-top:500px;}
 #section1 h3{font-size:30px;
 			font-weight:600;
 			text-align:center;}
@@ -257,49 +252,52 @@ button{width:60px;
 .sp2{font-size:18px;
 	text-align:center;
 	margin-left:260px;}
-#section1 img{left:0;
-			position:absolute;
-			margin-left:310px;
-			margin-top:-50px;}
-#section2{margin-top:400px;
-		position:absolute;
-		left:0;
-		margin-left:20px;}
+#section1 img{position: relative;
+    margin-top: -50px;
+    width: 100%;}
+#section2{    position: relative;
+    left: 0px;
+    margin-left:0px;
+}
 #section2 ul{width:50%;
 			float:left;}
 .right{margin-left:10px;
 		margin-top:-545px;
 		margin-left:632px;}
 
-.left h3{position:absolute;
-			margin-top:180px;
-			margin-left:350px;
-			font-size:25px;
-			font-weight:600;}
-.right h3{position:absolute;
-			margin-left:305px;
-			margin-top:180px;
-			font-size:25px;
-			font-weight:600;}
+.left h3{    position: relative;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;}
+.left li img{
+	position: relative;
+    left: -300px;
+    top: -171px;
+}	
+.right h3{position: relative;
+    font-size: 25px;
+    font-weight: 600;}
+.right li img{
+	position: relative;
+    left: -300px;
+    top: -200px;
+}	
 .right img{margin-top:30px;}
-#section3{margin-top:950px;
-		margin-left:55px;}
+#section3{margin-top:0px;}
 #section3 img{margin-top:-70px;}
-#section3 h3{font-size:30px;
-			font-weight:600;
-			margin-left:55px;
-			margin-top:30px;}
-#section3 p{font-size:18px;
-			line-height:36px;
-			margin-left:55px;
-			margin-top:15px;}
-#section4{margin-top:100px;
-		margin-left:110px;}
-#section4_2{position:absolute;
-			top:0;
-			left:0;
-			margin-top:2480px;
-			margin-left:175px;}
+#section3 h3{font-size: 30px;
+    font-weight: 600;
+    width: 300px;
+    margin-left: 50px;}
+#section3 p{    font-size: 18px;
+    line-height: 36px;
+    margin-left: 50px;
+    margin-top: 15px;}
+#section4{
+		margin-left:50px;}
+#section4_2{    position: relative;
+    top: -100px;
+    left: -130px;}
 #section4_2 li{
 			float:left;}
 .logob{margin-top:-515px;
@@ -309,12 +307,14 @@ button{width:60px;
 #section4 p{font-size:18px;
 			line-height:36px;
 			margin-top:15px;}
-#section5{margin-top:400px;
-		position:absolute;
-		left:0;}
+#section5{    position: relative;
+    left: -300px;
+    top: -200px;
+	height:900px;}
 .top h3, .top p{margin-left:360px;}
 .top h3{font-size:30px;
-		font-weight:600;}
+		font-weight:600;
+		width:300px;}
 .top p{font-size:18px;
 		line-height:36px;
 		margin-top:20px;}
@@ -324,7 +324,7 @@ button{width:60px;
 				margin-top:-10px;}
 .left2{margin-left:170px;
 		margin-top:-100px;}
-.right2{margin-left:620px;}
+.right2{margin-left:800px;}
 .left2 h3, .right2 h3{position:absolute;
 						left:0;
 						margin-left:190px;
@@ -332,14 +332,14 @@ button{width:60px;
 						font-size:20px;
 						font-weight:600;}
 .left2 h3{margin-top:150px;}
-.right2 h3{margin-left:240px;
+.right2 h3{margin-left:370px;
 			margin-top:60px;}
-.right2 img{margin-left:170px;
+.right2 img{
 			margin-top:80px;}
 footer{width:1400px;
 		height:220px;
 		background-color:#000;
-		margin-top:1000px;}
+		position:relative;}
 .f_logo{width:100px;
 		height:40px;
 		padding-top:60px;

@@ -157,11 +157,6 @@ button{width:60px;
 
 .submenu1 li:hover a{color:#14a4af;
 					border-bottom:2px solid #14a4af;}
-		height:20px;
-		background-color:transparent !important;;
-			background-image: none !important;
-			border-color: transparent;
-			border: none;}
 .nav2 li:hover h2{background-color:#fff;
 					color:#14a4af;
 					height:77px;
@@ -326,7 +321,7 @@ text-align:center;}
 	width:400px;
 	position:absolute;
 	margin-top:160px;
-	margin-left:1060px;
+	margin-left:820px;
 	left:0;}
 .p2{margin-top:250px;
 	position:absolute;
@@ -401,7 +396,7 @@ text-align:center;}
 	width:400px;
 	position:absolute;
 	margin-top:130px;
-	margin-left:1060px;
+	margin-left:820px;
 	left:0;}
 .p4{margin-top:230px;
 	position:absolute;
